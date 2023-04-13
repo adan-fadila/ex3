@@ -2,7 +2,35 @@
     margin: 0;
     padding: 0;
 }
-
+@media only screen and (max-device-width: 480px){
+   
+    .layout3-side2{
+        display: none;
+    }
+    
+    .layout3-side1{
+        width: 100%;
+        height: 105px;
+        position: fixed;
+        background-color: #E5E5E5;
+        padding-left: 302px;
+        padding-top: 45px;
+    }
+   
+}
+@media only screen and (min-device-width: 481px){
+   
+    .layout3-side1{
+        position: fixed;
+        height: 100%;
+        width: 329px;
+        background-color:#E5E5E5 ;
+        padding-left: 38px;
+        padding-top: 123px;
+        
+    }
+   
+}
 header ,section , nav ,aside ,footer{
     display: block;
 }
@@ -202,15 +230,7 @@ footer{
     Line-height: 128.06px;
     Line-height: 100%;
 }
-.layout3-side1{
-    position: fixed;
-    height: 100%;
-    width: 329px;
-    background-color:#E5E5E5 ;
-    padding-left: 38px;
-    padding-top: 123px;
-    
-}
+
 .layout3-side2{
     position: fixed;
     height: 100%;
@@ -223,14 +243,14 @@ footer{
 }
 .layout3-side3{
     position: fixed;
-    height: 100px;
+    height: 263px;
     width: 100%;
     background-color:#EBEF18 ;
     
     z-index: 0;
     bottom: 0;
 }
-.layout3-rec{
+/* .layout3-rec{
     position: relative;
     top:123px;
     left:436px;
@@ -239,46 +259,46 @@ footer{
     margin-bottom: 170px;
 }
 .layout3-rec1-properties{
-    /* position: absolute; */
+   
     width: 80px;
     height: 80px;
     background-color: #000000;
-    /* margin-left: 64px; */
+    
 }
 .layout3-rec2-properties{
-    /* position:absolute; */
+   
     width: 100px;
     height: 100px;
     background-color: #000000;
-    /* margin-left: 132px; */
+    
 }
 .layout3-rec3-properties{
-    /* position:absolute; */
+    
     width: 120px;
     height: 120px;
     background-color: #000000;
-    /* margin-left: 132px; */
+    
 }
 .layout3-rec4-properties{
-    /* position:absolute; */
+   
     width: 140px;
     height: 140px;
     background-color: #000000;
-    /* margin-left: 132px; */
+    
 }
 .layout3-rec5-properties{
-    /* position:absolute; */
+    
     width: 160px;
     height: 160px;
     background-color: #000000;
-    /* margin-left: 132px; */
+    
 }
 .layout3-rec6-properties{
-    /* position:absolute; */
+    
     width: 116px;
     height: 131px;
     background-color: #000000;
-    /* margin-left: 132px; */
+    
     color: #FFFFFF;
     font-weight: 400;
     font-size: 64px;
@@ -286,9 +306,9 @@ footer{
     padding-left: 64px;
 }
 .layout3-rec7-properties{
-    /* position:absolute; */
+    
     width: 200px;
     height: 200px;
     background-color: #000000;
-    /* margin-left: 132px; */
-}
+    
+} */
